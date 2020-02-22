@@ -1,0 +1,14 @@
+{
+  "extends": ["config:base"],
+  "packageRules": [
+    {
+      "updateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    }
+  ],
+  "labels": ["dependencies"],
+  "node": {
+    "enabled": true,
+    "supportPolicy": ["lts_latest"]
+  }
+}
